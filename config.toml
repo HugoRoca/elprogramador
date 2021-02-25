@@ -2,7 +2,7 @@
 baseURL = "https://examplesite.com"
 languageCode = "es-es"
 defaultContentLanguage = "es"
-title = "Liva | Personal blog template"
+title = "El Programador | Blog personal"
 theme = "liva-hugo"
 summaryLength = "2"
 paginate = 6
@@ -87,9 +87,9 @@ author = "Hugo Roca"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+# mobile = "0124857985320"
+email = "hugo.rock20@hotmail.com"
+location = "Lima, Perú"
 # copyright
 copyright = "| copyright &copy; 2021 [Hugo](https://gohugo.io/) All Rights Reserved |"
 
@@ -117,7 +117,7 @@ expire_days = 2
 
 ############################# social site ########################
 [[params.social]]
-title = "email"
+title = "Email"
 icon = "ti-email" # themify icon : https://themify.me/themify-icons
 link = "mailto:hugo.rock20@hotmail.com"
 
@@ -132,11 +132,11 @@ icon = "ti-skype" # themify icon : https://themify.me/themify-icons
 link = "skype:hugo.rock20?chat"
 
 [[params.social]]
-title = "github"
+title = "Github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
 link = "https://github.com/HugoRoca"
 
 [[params.social]]
-title = "linkedin"
+title = "Linkedin"
 icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "https://www.linkedin.com/in/hugoroca/"
