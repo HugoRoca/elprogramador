@@ -28,7 +28,7 @@
       </div>
       {{ if or  .Site.Params.mobile .Site.Params.location .Site.Params.email }}         
       <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Contact Me</h6>
+        <h6 class="mb-4">Contáctame</h6>
         <ul class="list-unstyled">
           {{ if .Site.Params.mobile }}
           <li class="mb-3"><a class="text-dark" href="tel:{{ .Site.Params.mobile }}"><i
@@ -46,7 +46,7 @@
       </div>
       {{ end }}
       <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Social Contacts</h6>
+        <h6 class="mb-4">Redes Sociales</h6>
         <ul class="list-unstyled">
           {{ range .Site.Params.social }}
           <li class="mb-3"><a class="text-dark" href="{{ .link | safeURL }}">{{ .title }}</a></li>
@@ -54,7 +54,7 @@
         </ul>
       </div>
       <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Categories</h6>
+        <h6 class="mb-4">Categorias</h6>
         {{- if isset .Site.Taxonomies "categories" }}
         {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
         <ul class="list-unstyled">
@@ -68,7 +68,7 @@
         {{- end }}
       </div>
       <div class="col-lg-3 col-sm-6 mb-5">
-        <h6 class="mb-4">Quick Links</h6>
+        <h6 class="mb-4">Enlaces Rápidos</h6>
         <ul class="list-unstyled">
           {{ range .Site.Menus.footer }}
           <li class="mb-3"><a class="text-dark" href="{{ .URL | absURL }}">{{ .Name }}</a></li>
