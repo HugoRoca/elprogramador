@@ -304,7 +304,7 @@
 
   pre {
     padding: 10px 20px;
-    background: $gray;
+    background: $block-code;
 
     code {
       border: 0;
@@ -323,7 +323,7 @@
 
   code {
     padding: 3px 5px;
-    background: $gray;
+    background: $block-code;
     border: 1px solid $border-color;
     border-radius: 3px;
     color: $text-color-dark;
