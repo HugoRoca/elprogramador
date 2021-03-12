@@ -305,6 +305,8 @@
   pre {
     padding: 10px 20px;
     background: $block-code;
+    border: 1px solid $border-color;
+    border-radius: 6px;
 
     code {
       border: 0;

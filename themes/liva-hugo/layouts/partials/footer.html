@@ -97,10 +97,15 @@
 <script type="text/javascript">
   $(document).ready(function() {
     hljs.initHighlightingOnLoad();
+    // hljs.initLineNumbersOnLoad();
 
     $('pre code').each(function(i, block) {
       hljs.highlightBlock(block);
     });
+
+    // $('code.hljs').each(function(i, block) {
+    //   hljs.lineNumbersBlock(block);
+    // });
   });
 </script>
 
