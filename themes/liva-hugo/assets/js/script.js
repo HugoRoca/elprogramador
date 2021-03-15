@@ -21,6 +21,10 @@
       verticalSwiping: true,
       arrows: false,
       dots: true,
+      autoplay: true,
+      autoplaySpeed: 3500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
       responsive: [{
         breakpoint: 600,
         settings: {

@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.com"
-languageCode = "es-es"
+languageCode = "es-pe"
 defaultContentLanguage = "es"
 title = "El Programador | Blog personal"
 theme = "liva-hugo"

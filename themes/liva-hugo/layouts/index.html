@@ -20,7 +20,7 @@
                   <span>Por {{ .Site.Params.Author }}</span>
                   {{ if not .Params.HideDate }}
                   <span class="border-bottom border-primary px-2 mx-1"></span>
-                  <span>{{ .PublishDate.Format "02/03/2006" }}</span>
+                  <span>{{ .PublishDate.Format "02/01/2006" }}</span>
                   {{ end }}
                 </div>
                 <a href="{{ .Permalink }}"
@@ -52,7 +52,7 @@
               <span>Por {{ .Site.Params.Author }}</span>
               {{ if not .Params.HideDate }}
               <span class="border-bottom border-primary px-2 mx-1"></span>
-              <span>{{ .PublishDate.Format "02/03/2006" }}</span>
+              <span>{{ .PublishDate.Format "02/01/2006" }}</span>
               {{ end }}
             </div>
             <a href="{{ .Permalink }}" class="h5 d-block mb-3">{{ .Title | markdownify }}</a>
@@ -89,7 +89,7 @@
                   <span>Por {{ .Site.Params.Author }}</span>
                   {{ if not .Params.HideDate }}
                   <span class="border-bottom border-primary px-2 mx-1"></span>
-                  <span>{{ .PublishDate.Format "02/03/2006" }}</span>
+                  <span>{{ .PublishDate.Format "02/01/2006" }}</span>
                   {{ end }}
                 </div>
                 <p class="card-text">{{ .Summary }}</p>

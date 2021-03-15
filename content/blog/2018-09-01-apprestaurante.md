@@ -66,4 +66,5 @@ Ejecutar el proyecto, para acceder al administrador solamente debes de agregar a
 Ejemplo: http://localhost:666/admin
 ```
 
-Comenta, disfruta y comparte! 
+Para finalizar, les dejo este pensamiento corto:
+> Escribe en tu corazón que cada día es el mejor día del año (Ralph Waldo Emerson).
