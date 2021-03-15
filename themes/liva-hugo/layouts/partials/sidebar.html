@@ -4,7 +4,7 @@
     <img src="{{`images/promotion.png` | absURL}}" alt="" class="img-fluid">
   </div>
   <!-- about -->
-  <!-- <div class="widget">
+  <div class="widget">
     {{ with .Site.GetPage "/about" }}
     <h4 class="widget-title">{{ .Title | markdownify }}</h4>
     {{ if .Params.Image }}
@@ -14,7 +14,7 @@
     <p>{{ .Summary }}</p>
     <a href="{{ .Permalink }}" class="btn btn-outline-primary">Saber más</a>
     {{ end }}
-  </div> -->
+  </div>
   <!-- category -->
   <div class="widget">
     <h4 class="widget-title">Categorías</h4>
@@ -45,12 +45,12 @@
     {{- end }}
   </div>
   <!-- social -->
-  <!-- <div class="widget">
+  <div class="widget">
     <h4 class="widget-title">Social</h4>
     <ul class="list-inline social-links">
       {{ range .Site.Params.social }}
       <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
       {{ end }}
     </ul>
-  </div> -->
+  </div>
 </div>
