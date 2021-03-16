@@ -7,12 +7,12 @@ draft: false
 image: "images/author.jpg"
 
 # meta description
-description: "this is meta description"
+description: "Soy un profesional certificado en el área de desarrollo de software..."
 
 # type
 type : "about"
 ---
 
-consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+Soy un profesional certificado en el área de desarrollo de software, he participado en diferentes proyectos de empresas en el rubro de ventas, cobranzas, facturación, prestamos y cosméticos. Poseo sólidos conocimientos en análisis, diseño y creación de servicios y aplicaciones web en diferentes lenguajes de programación a sí como también en manejo de base de datos y despliegues a producción.
 
-nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+**#nodejs #javascript #typescript #react #mongo #elasticsearch #lambda #event-driven #microservices**
