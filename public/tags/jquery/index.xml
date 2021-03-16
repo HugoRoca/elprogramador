@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JQUERY on El Programador | Blog personal</title>
+    <link>https://examplesite.com/tags/jquery/</link>
+    <description>Recent content in JQUERY on El Programador | Blog personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-pe</language>
+    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://examplesite.com/tags/jquery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>APP Restaurante</title>
+      <link>https://examplesite.com/blog/2018-09-01-apprestaurante/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/blog/2018-09-01-apprestaurante/</guid>
+      <description>En esta oportunidad les presento un nuevo sistema de restaurante, cuenta con dos formas de ver, una para los pedidos que se configura dentro del sistema y la otra la parte administrativa.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://examplesite.com/blog/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/contact/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/search/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/about/</loc>
+    <lastmod>2019-10-29T13:49:23+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/categories/</loc>
+    <lastmod>2019-07-21T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/</loc>
+    <lastmod>2019-07-21T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/js/</loc>
+    <lastmod>2019-07-21T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/mongodb/</loc>
+    <lastmod>2019-07-21T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/nodejs/</loc>
+    <lastmod>2019-07-21T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/</loc>
+    <lastmod>2019-07-21T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/categories/tutoriales/</loc>
+    <lastmod>2019-07-21T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2019-07-21-appwebprogresiva-que-es/</loc>
+    <lastmod>2019-07-21T10:07:47+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</loc>
+    <lastmod>2019-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2019-06-10-ngrok/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/tuneles/</loc>
+    <lastmod>2019-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/categories/base-de-datos/</loc>
+    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2019-05-13-nodejs-mongodb/</loc>
+    <lastmod>2019-05-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2019-05-06-mongodb-atlas/</loc>
+    <lastmod>2019-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/handlebars/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2019-04-15-handlebars-prt-2/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2019-04-09-handlebars-prt-1/</loc>
+    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2019-04-03-javascript-promesas/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2019-01-10-nodejs-sqlserver/</loc>
+    <lastmod>2019-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/javascript/</loc>
+    <lastmod>2019-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/sqlserver/</loc>
+    <lastmod>2019-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2018-12-15-game-rock-paper-scissors/</loc>
+    <lastmod>2018-12-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2018-11-01-nodejs-redis/</loc>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/redis/</loc>
+    <lastmod>2018-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/css3/</loc>
+    <lastmod>2018-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2018-10-02-d3js/</loc>
+    <lastmod>2018-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/poo/</loc>
+    <lastmod>2018-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2018-09-15-poo/</loc>
+    <lastmod>2018-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2018-09-01-apprestaurante/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/csharp/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/jquery/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/categories/sistemas/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2018-05-20-log4net/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2018-05-06-entityframework-basico/</loc>
+    <lastmod>2018-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2018-04-29-scripts-sqlserver/</loc>
+    <lastmod>2018-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2018-04-15-portafolio-profesional/</loc>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/angularjs/</loc>
+    <lastmod>2018-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/html5/</loc>
+    <lastmod>2018-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/tags/php/</loc>
+    <lastmod>2018-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2018-03-30-sigeven2.0/</loc>
+    <lastmod>2018-03-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://examplesite.com/blog/2018-03-04-sigeven1.0/</loc>
+    <lastmod>2018-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>

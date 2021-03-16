@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSharp on El Programador | Blog personal</title>
+    <link>https://examplesite.com/tags/csharp/</link>
+    <description>Recent content in CSharp on El Programador | Blog personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-pe</language>
+    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://examplesite.com/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>APP Restaurante</title>
+      <link>https://examplesite.com/blog/2018-09-01-apprestaurante/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/blog/2018-09-01-apprestaurante/</guid>
+      <description>En esta oportunidad les presento un nuevo sistema de restaurante, cuenta con dos formas de ver, una para los pedidos que se configura dentro del sistema y la otra la parte administrativa.</description>
+    </item>
+    
+    <item>
+      <title>Registro de errores con Log4Net</title>
+      <link>https://examplesite.com/blog/2018-05-20-log4net/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/blog/2018-05-20-log4net/</guid>
+      <description>Si eres un gran desarrollador sabrás que todo software debe de tener un LOG, en esta oportunidad te muestro un aplicativo de como se hace uno.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework Básico</title>
+      <link>https://examplesite.com/blog/2018-05-06-entityframework-basico/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/blog/2018-05-06-entityframework-basico/</guid>
+      <description>Una forma mas rápida de realizar CRUD&amp;rsquo;s, a tan solo unos clicks.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nodejs on El Programador | Blog personal</title>
+    <link>https://examplesite.com/tags/nodejs/</link>
+    <description>Recent content in nodejs on El Programador | Blog personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-pe</language>
+    <lastBuildDate>Sun, 21 Jul 2019 10:07:47 +0600</lastBuildDate>
+    
+	<atom:link href="https://examplesite.com/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>¿Que son las aplicaciones web progresivas?</title>
+      <link>https://examplesite.com/blog/2019-07-21-appwebprogresiva-que-es/</link>
+      <pubDate>Sun, 21 Jul 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://examplesite.com/blog/2019-07-21-appwebprogresiva-que-es/</guid>
+      <description>En esta pequeña publicación vamos a definir y entender que es una aplicación web progresiva.</description>
+    </item>
+    
+    <item>
+      <title>CHAT en tiempo real con NodeJS, Express, BlueBirdJS, Socket.IO y mongoDB</title>
+      <link>https://examplesite.com/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</guid>
+      <description>En este pequeño post te explicaré como crear una aplicación de chat en tiempo real paso a paso.</description>
+    </item>
+    
+  </channel>
+</rss>

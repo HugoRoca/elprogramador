@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on El Programador | Blog personal</title>
+    <link>https://examplesite.com/tags/</link>
+    <description>Recent content in Tags on El Programador | Blog personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-pe</language>
+    <lastBuildDate>Sun, 21 Jul 2019 10:07:47 +0600</lastBuildDate>
+    
+	<atom:link href="https://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JS</title>
+      <link>https://examplesite.com/tags/js/</link>
+      <pubDate>Sun, 21 Jul 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://examplesite.com/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mongodb</title>
+      <link>https://examplesite.com/tags/mongodb/</link>
+      <pubDate>Sun, 21 Jul 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://examplesite.com/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nodejs</title>
+      <link>https://examplesite.com/tags/nodejs/</link>
+      <pubDate>Sun, 21 Jul 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://examplesite.com/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tuneles</title>
+      <link>https://examplesite.com/tags/tuneles/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/tags/tuneles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Handlebars</title>
+      <link>https://examplesite.com/tags/handlebars/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/tags/handlebars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://examplesite.com/tags/javascript/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQLSERVER</title>
+      <link>https://examplesite.com/tags/sqlserver/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/tags/sqlserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REDIS</title>
+      <link>https://examplesite.com/tags/redis/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS3</title>
+      <link>https://examplesite.com/tags/css3/</link>
+      <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/tags/css3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>POO</title>
+      <link>https://examplesite.com/tags/poo/</link>
+      <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/tags/poo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSharp</title>
+      <link>https://examplesite.com/tags/csharp/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/tags/csharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JQUERY</title>
+      <link>https://examplesite.com/tags/jquery/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/tags/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AngularJS</title>
+      <link>https://examplesite.com/tags/angularjs/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/tags/angularjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML5</title>
+      <link>https://examplesite.com/tags/html5/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/tags/html5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PHP</title>
+      <link>https://examplesite.com/tags/php/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/tags/php/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

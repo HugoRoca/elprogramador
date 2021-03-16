@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS3 on El Programador | Blog personal</title>
+    <link>https://examplesite.com/tags/css3/</link>
+    <description>Recent content in CSS3 on El Programador | Blog personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-pe</language>
+    <lastBuildDate>Tue, 02 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://examplesite.com/tags/css3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gráficos con D3JS</title>
+      <link>https://examplesite.com/blog/2018-10-02-d3js/</link>
+      <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/blog/2018-10-02-d3js/</guid>
+      <description>D3.js es una biblioteca de JavaScript para manipular documentos basados ​​en datos.</description>
+    </item>
+    
+    <item>
+      <title>SIGEVEN 2.0</title>
+      <link>https://examplesite.com/blog/2018-03-30-sigeven2.0/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/blog/2018-03-30-sigeven2.0/</guid>
+      <description>Como dicen, si hay versión 1, una 2 va haber, en esta oportunidad les muestro otro sistema de ventas mas completo en full PHP con jquery y ajax.</description>
+    </item>
+    
+    <item>
+      <title>SIGEVEN 1.0</title>
+      <link>https://examplesite.com/blog/2018-03-04-sigeven1.0/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/blog/2018-03-04-sigeven1.0/</guid>
+      <description>En esta oportunidad les presento un sistema de gestión de ventas para un puesto de ventas, podrás registrar ventas diarias, gastos, ingresos, registro de proveedores e incluso realizar reportes.</description>
+    </item>
+    
+  </channel>
+</rss>

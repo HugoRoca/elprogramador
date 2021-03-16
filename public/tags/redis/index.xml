@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>REDIS on El Programador | Blog personal</title>
+    <link>https://examplesite.com/tags/redis/</link>
+    <description>Recent content in REDIS on El Programador | Blog personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-pe</language>
+    <lastBuildDate>Thu, 01 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://examplesite.com/tags/redis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conexión NodeJS con Redis Cache</title>
+      <link>https://examplesite.com/blog/2018-11-01-nodejs-redis/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.com/blog/2018-11-01-nodejs-redis/</guid>
+      <description>Redis se utiliza como base de datos y para caché, ya que es súper rápido debido a que los datos se almacenan &amp;ldquo;en memoria&amp;rdquo;, a diferencia de otras bases de datos en las que los datos generalmente se almacenan &amp;ldquo;en disco&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
