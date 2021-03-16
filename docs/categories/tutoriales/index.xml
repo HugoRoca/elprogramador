@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutoriales on El Programador | Blog personal</title>
-    <link>https://examplesite.com/categories/tutoriales/</link>
+    <link>https://hugoroca.github.io/elprogramador/categories/tutoriales/</link>
     <description>Recent content in Tutoriales on El Programador | Blog personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-pe</language>
     <lastBuildDate>Sun, 21 Jul 2019 10:07:47 +0600</lastBuildDate>
     
-	<atom:link href="https://examplesite.com/categories/tutoriales/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hugoroca.github.io/elprogramador/categories/tutoriales/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>¿Que son las aplicaciones web progresivas?</title>
-      <link>https://examplesite.com/blog/2019-07-21-appwebprogresiva-que-es/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-07-21-appwebprogresiva-que-es/</link>
       <pubDate>Sun, 21 Jul 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-07-21-appwebprogresiva-que-es/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-07-21-appwebprogresiva-que-es/</guid>
       <description>En esta pequeña publicación vamos a definir y entender que es una aplicación web progresiva.</description>
     </item>
     
     <item>
       <title>CHAT en tiempo real con NodeJS, Express, BlueBirdJS, Socket.IO y mongoDB</title>
-      <link>https://examplesite.com/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</link>
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</guid>
       <description>En este pequeño post te explicaré como crear una aplicación de chat en tiempo real paso a paso.</description>
     </item>
     
     <item>
       <title>NGrok: Crea URLs públicas para exponer su servidor web local</title>
-      <link>https://examplesite.com/blog/2019-06-10-ngrok/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-06-10-ngrok/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-06-10-ngrok/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-06-10-ngrok/</guid>
       <description>Ngrok es una herramienta útil que crea una URL de túnel segura y de acceso público a una aplicación que se ejecuta en localhost.</description>
     </item>
     
     <item>
       <title>Handlebars | Parte 2</title>
-      <link>https://examplesite.com/blog/2019-04-15-handlebars-prt-2/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-04-15-handlebars-prt-2/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-04-15-handlebars-prt-2/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-04-15-handlebars-prt-2/</guid>
       <description>Continuando con handlebars, esta vez construiremos plantillas mas avanzadas usando condiciones, bucles, with, variables de datos, helpers y partials.</description>
     </item>
     
     <item>
       <title>Handlebars | Parte 1</title>
-      <link>https://examplesite.com/blog/2019-04-09-handlebars-prt-1/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-04-09-handlebars-prt-1/</link>
       <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-04-09-handlebars-prt-1/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-04-09-handlebars-prt-1/</guid>
       <description>Handlebars.</description>
     </item>
     
     <item>
       <title>Javascript: Promesas</title>
-      <link>https://examplesite.com/blog/2019-04-03-javascript-promesas/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-04-03-javascript-promesas/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-04-03-javascript-promesas/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-04-03-javascript-promesas/</guid>
       <description>A una promesa, como su propio nombre lo dice, es simplemente un objeto que puede o no devolver algún valor en la línea de tiempo presente y futuro.</description>
     </item>
     
     <item>
       <title>Conexión NodeJS con SQLServer</title>
-      <link>https://examplesite.com/blog/2019-01-10-nodejs-sqlserver/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-01-10-nodejs-sqlserver/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-01-10-nodejs-sqlserver/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-01-10-nodejs-sqlserver/</guid>
       <description>Microsoft SQL Server es un sistema de gestión de base de datos relacional (RDBMS) producido por Microsoft.</description>
     </item>
     
     <item>
       <title>Creación de un juego con JavaScript puro</title>
-      <link>https://examplesite.com/blog/2018-12-15-game-rock-paper-scissors/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2018-12-15-game-rock-paper-scissors/</link>
       <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2018-12-15-game-rock-paper-scissors/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2018-12-15-game-rock-paper-scissors/</guid>
       <description>En esta oportunidad crearemos un juego del clásico piedra, papel o tijeras.</description>
     </item>
     
     <item>
       <title>Conexión NodeJS con Redis Cache</title>
-      <link>https://examplesite.com/blog/2018-11-01-nodejs-redis/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2018-11-01-nodejs-redis/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2018-11-01-nodejs-redis/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2018-11-01-nodejs-redis/</guid>
       <description>Redis se utiliza como base de datos y para caché, ya que es súper rápido debido a que los datos se almacenan &amp;ldquo;en memoria&amp;rdquo;, a diferencia de otras bases de datos en las que los datos generalmente se almacenan &amp;ldquo;en disco&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Gráficos con D3JS</title>
-      <link>https://examplesite.com/blog/2018-10-02-d3js/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2018-10-02-d3js/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2018-10-02-d3js/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2018-10-02-d3js/</guid>
       <description>D3.js es una biblioteca de JavaScript para manipular documentos basados ​​en datos.</description>
     </item>
     

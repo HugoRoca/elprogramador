@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mongodb on El Programador | Blog personal</title>
-    <link>https://examplesite.com/tags/mongodb/</link>
+    <link>https://hugoroca.github.io/elprogramador/tags/mongodb/</link>
     <description>Recent content in mongodb on El Programador | Blog personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-pe</language>
     <lastBuildDate>Sun, 21 Jul 2019 10:07:47 +0600</lastBuildDate>
     
-	<atom:link href="https://examplesite.com/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hugoroca.github.io/elprogramador/tags/mongodb/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>¿Que son las aplicaciones web progresivas?</title>
-      <link>https://examplesite.com/blog/2019-07-21-appwebprogresiva-que-es/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-07-21-appwebprogresiva-que-es/</link>
       <pubDate>Sun, 21 Jul 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-07-21-appwebprogresiva-que-es/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-07-21-appwebprogresiva-que-es/</guid>
       <description>En esta pequeña publicación vamos a definir y entender que es una aplicación web progresiva.</description>
     </item>
     
     <item>
       <title>CHAT en tiempo real con NodeJS, Express, BlueBirdJS, Socket.IO y mongoDB</title>
-      <link>https://examplesite.com/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</link>
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</guid>
       <description>En este pequeño post te explicaré como crear una aplicación de chat en tiempo real paso a paso.</description>
     </item>
     
     <item>
       <title>Conexión NodeJS con MongoDB Atlas</title>
-      <link>https://examplesite.com/blog/2019-05-13-nodejs-mongodb/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-05-13-nodejs-mongodb/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-05-13-nodejs-mongodb/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-05-13-nodejs-mongodb/</guid>
       <description>MongoDB Atlas es la base de datos como servicio que permite implementar, utilizar y escalar una base de datos de MongoDB en la nube haciendo conexión con NodeJS.</description>
     </item>
     
     <item>
       <title>Configuración de una cuenta en MongoDB Atlas</title>
-      <link>https://examplesite.com/blog/2019-05-06-mongodb-atlas/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-05-06-mongodb-atlas/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-05-06-mongodb-atlas/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-05-06-mongodb-atlas/</guid>
       <description>MongoDB Atlas ofrece la base de datos líder mundial para aplicaciones modernas como un servicio en la nube totalmente automatizado, diseñado y ejecutado por el mismo equipo que construye la base de datos.</description>
     </item>
     

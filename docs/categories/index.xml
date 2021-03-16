@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on El Programador | Blog personal</title>
-    <link>https://examplesite.com/categories/</link>
+    <link>https://hugoroca.github.io/elprogramador/categories/</link>
     <description>Recent content in Categories on El Programador | Blog personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-pe</language>
     <lastBuildDate>Sun, 21 Jul 2019 10:07:47 +0600</lastBuildDate>
     
-	<atom:link href="https://examplesite.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hugoroca.github.io/elprogramador/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tutoriales</title>
-      <link>https://examplesite.com/categories/tutoriales/</link>
+      <link>https://hugoroca.github.io/elprogramador/categories/tutoriales/</link>
       <pubDate>Sun, 21 Jul 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://examplesite.com/categories/tutoriales/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/categories/tutoriales/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Base de datos</title>
-      <link>https://examplesite.com/categories/base-de-datos/</link>
+      <link>https://hugoroca.github.io/elprogramador/categories/base-de-datos/</link>
       <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/categories/base-de-datos/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/categories/base-de-datos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sistemas</title>
-      <link>https://examplesite.com/categories/sistemas/</link>
+      <link>https://hugoroca.github.io/elprogramador/categories/sistemas/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/categories/sistemas/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/categories/sistemas/</guid>
       <description></description>
     </item>
     

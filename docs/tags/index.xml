@@ -2,147 +2,147 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on El Programador | Blog personal</title>
-    <link>https://examplesite.com/tags/</link>
+    <link>https://hugoroca.github.io/elprogramador/tags/</link>
     <description>Recent content in Tags on El Programador | Blog personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-pe</language>
     <lastBuildDate>Sun, 21 Jul 2019 10:07:47 +0600</lastBuildDate>
     
-	<atom:link href="https://examplesite.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hugoroca.github.io/elprogramador/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JS</title>
-      <link>https://examplesite.com/tags/js/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/js/</link>
       <pubDate>Sun, 21 Jul 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://examplesite.com/tags/js/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mongodb</title>
-      <link>https://examplesite.com/tags/mongodb/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/mongodb/</link>
       <pubDate>Sun, 21 Jul 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://examplesite.com/tags/mongodb/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/mongodb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nodejs</title>
-      <link>https://examplesite.com/tags/nodejs/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/nodejs/</link>
       <pubDate>Sun, 21 Jul 2019 10:07:47 +0600</pubDate>
       
-      <guid>https://examplesite.com/tags/nodejs/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/nodejs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tuneles</title>
-      <link>https://examplesite.com/tags/tuneles/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/tuneles/</link>
       <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/tags/tuneles/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/tuneles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Handlebars</title>
-      <link>https://examplesite.com/tags/handlebars/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/handlebars/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/tags/handlebars/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/handlebars/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavaScript</title>
-      <link>https://examplesite.com/tags/javascript/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/javascript/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/tags/javascript/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SQLSERVER</title>
-      <link>https://examplesite.com/tags/sqlserver/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/sqlserver/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/tags/sqlserver/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/sqlserver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>REDIS</title>
-      <link>https://examplesite.com/tags/redis/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/redis/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/tags/redis/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/redis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS3</title>
-      <link>https://examplesite.com/tags/css3/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/css3/</link>
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/tags/css3/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/css3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>POO</title>
-      <link>https://examplesite.com/tags/poo/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/poo/</link>
       <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/tags/poo/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/poo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSharp</title>
-      <link>https://examplesite.com/tags/csharp/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/csharp/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/tags/csharp/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/csharp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JQUERY</title>
-      <link>https://examplesite.com/tags/jquery/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/jquery/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/tags/jquery/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/jquery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AngularJS</title>
-      <link>https://examplesite.com/tags/angularjs/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/angularjs/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/tags/angularjs/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/angularjs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HTML5</title>
-      <link>https://examplesite.com/tags/html5/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/html5/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/tags/html5/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/html5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PHP</title>
-      <link>https://examplesite.com/tags/php/</link>
+      <link>https://hugoroca.github.io/elprogramador/tags/php/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/tags/php/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/tags/php/</guid>
       <description></description>
     </item>
     

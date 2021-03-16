@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Handlebars on El Programador | Blog personal</title>
-    <link>https://examplesite.com/tags/handlebars/</link>
+    <link>https://hugoroca.github.io/elprogramador/tags/handlebars/</link>
     <description>Recent content in Handlebars on El Programador | Blog personal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-pe</language>
     <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://examplesite.com/tags/handlebars/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hugoroca.github.io/elprogramador/tags/handlebars/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Handlebars | Parte 2</title>
-      <link>https://examplesite.com/blog/2019-04-15-handlebars-prt-2/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-04-15-handlebars-prt-2/</link>
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-04-15-handlebars-prt-2/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-04-15-handlebars-prt-2/</guid>
       <description>Continuando con handlebars, esta vez construiremos plantillas mas avanzadas usando condiciones, bucles, with, variables de datos, helpers y partials.</description>
     </item>
     
     <item>
       <title>Handlebars | Parte 1</title>
-      <link>https://examplesite.com/blog/2019-04-09-handlebars-prt-1/</link>
+      <link>https://hugoroca.github.io/elprogramador/blog/2019-04-09-handlebars-prt-1/</link>
       <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.com/blog/2019-04-09-handlebars-prt-1/</guid>
+      <guid>https://hugoroca.github.io/elprogramador/blog/2019-04-09-handlebars-prt-1/</guid>
       <description>Handlebars.</description>
     </item>
     

@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://hugoroca.github.io/elprogramador"
 languageCode = "es-pe"
 defaultContentLanguage = "es"
 title = "El Programador | Blog personal"
