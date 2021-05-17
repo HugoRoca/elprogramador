@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="es-pe"><head>
+  <meta charset="utf-8">
+  <title>El Programador | Blog personal</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Handlebars.js es un motor de plantillas muy popular que es potente, fácil de utilizar y que cuenta con una gran comunidad. Se basa en el lenguaje de plantillas Mustache, pero lo mejora de ...">
+  <meta name="author" content="Hugo Roca">
+  <meta name="generator" content="Hugo 0.58.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/images/favicon.ico " type="image/x-icon">
+  <link rel="icon" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/images/favicon.ico " type="image/x-icon">
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/css/syntax.css">
+
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/highlight/styles/atom-one-light.css ">
+  <script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/highlight/highlight.pack.js" type='text/javascript'></script>
+  
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com" style="font-family: 'Raleway'; font-size: 2em; font-weight: bold; color: black;">
+        DonProgramador();
+        
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:hugo.rock20@hotmail.com"><i class="ti-email"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/HuugooRoca"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="skype:hugo.rock20?chat"><i class="ti-skype"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/HugoRoca"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/hugoroca/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com" style="font-family: 'Raleway'; font-size: 2em; font-weight: bold; color: black;">
+          DonProgramador();
+          
+        </a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/about">Acerca</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/contact">Contacto</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Escriba y pulsa enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/tutoriales"
+          class="text-primary">Tutoriales</a>
+        
+        <h2>Handlebars | Parte 1</h2>
+        <div class="mb-3 post-meta">
+          <span>Por Hugo Roca</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>09/04/2019</span>
+          
+        </div>
+        
+        <img src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/images/post/2019-04-09-handlebars-prt-1.jpg" class="img-fluid w-100 mb-4" alt="Handlebars | Parte 1">
+        
+        <div class="content mb-5">
+          
+
+<blockquote>
+<p>Handlebars.js es un motor de plantillas muy popular que es potente, fácil de utilizar y que cuenta con una gran comunidad. Se basa en el lenguaje de plantillas Mustache, pero lo mejora de distintas maneras.</p>
+</blockquote>
+
+<p>Los sistemas de plantillas son muy importantes, porque nos permiten separar el código por responsabilidades y crear la salida de las aplicaciones de una manera sencilla, manteniendo el código HTML separado del código Javascript.</p>
+
+<h3 id="instalación">Instalación</h3>
+
+<p>Para poder descargar el cndjs has click <a href="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js">aqui</a>.</p>
+
+<h3 id="por-qué-son-necesarios-los-motores-de-plantillas">¿Por qué son necesarios los motores de plantillas?</h3>
+
+<p>Para entender en que situaciones nos puede venir bien el uso de un motor de plantillas de javascript, vamos a ver un sencillo ejemplo de unos de los problemas que nos podemos encontrar que con código javascript convencional no suele resolverse de una manera óptima.
+Para ello va ser una acción tan simple como la incluir un listado de elementos html en un código html existente mediente javascript la que nos permita apreciar las bondades de un motor de plantillas en este lenguaje.</p>
+
+<pre><code class="language-js">let alumnos = [{nombre:'Marcos', edad:20}, {nombre:'Armando', edad:22}, {nombre:'Guzmán', edad:24}];
+</code></pre>
+
+<p>Por un la lado tenemos un array de alumnos que en su interior solo tiene un nombre y una edad.</p>
+
+<pre><code class="language-js">function generarListadoAlumnos_A (alumnos) {
+    var total = alumnos.length;
+    var html = '';
+    var i = 0;
+
+    html = '&lt;dl&gt;';
+    for (i=0; i&lt;total; i++) {
+        html += '&lt;dt&gt;'+alumnos[i].nombre+'&lt;/dt&gt;'+'&lt;dd&gt;('+alumnos[i].edad+')&lt;/dd&gt;';
+    }
+    html += '&lt;/dl&gt;';
+
+    return html;
+}
+
+$(document).ready(function() {			
+    $('#contenedor').append(generarListadoAlumnos_A(alumnos));
+})
+</code></pre>
+
+<p>En la función <code>generarListadoAlumnos_A</code> lo que hacemos es generar un listado, en ests caso una lista de definición mediante la etiqueta <code>&lt;dl&gt;</code> que va recorriendo ese array de alumnos y va pintando el nombre y la edad.</p>
+
+<p>¿Qué problema tiene esta solucion? Tiene el problema de la importante mezcla que se esta dando entre etiquetas html y código javascript, como podemos ver simplemente en esta linea <code>html += '&lt;dt&gt;'+alumnos[i].nombre+'&lt;/dt&gt;'+'&lt;dd&gt;('+alumnos[i].edad+')&lt;/dd&gt;';</code> estamos haciendo varias concatenaciones que no es difícil imaginar que en un escenario más complejo que está pequeña lista que estamos usando de ejemplo se convierte en un código difícilmente mantenible, podríamos hacer una aproximación un poco más elaborada, de hecho mucha gente cuando se va enfrentando a este problema es lo que hace, que podría llevarnos a una solución alternativa como la que vamos a ver a continuación</p>
+
+<pre><code class="language-js">function generarListadoAlumnos_B ( alumnos ) {
+    let total = alumnos.length;
+    let html = '';
+    let i = 0;
+    let templateAlumno = '&lt;dt&gt;{{nombre}}&lt;/dt&gt;&lt;dd&gt;({{edad}})&lt;/dd&gt;';
+    let alumno = '';
+
+    html = '&lt;dl&gt;';
+    for (i=0; i&lt;total; i++) {
+        alumno = templateAlumno.replace('{{nombre}}', alumnos[i].nombre);
+        alumno = alumno.replace( '{{edad}}', alumnos[i].edad);
+        html += alumno;
+    }
+    html += '&lt;/dl&gt;';
+
+    return html;
+}
+</code></pre>
+
+<p>Esta función lo que hace en vez de generar la combinación de etiquetas html y datos en una única línea lo que hacemos es tener la línea ya preparada mediante una cadena de texto donde identificamos donde va ir el nombre y la edad y hacemos un reemplazo del nombre y de la edad por estas etiquetas que nos hemos sacado un poco de la manga <code>{{nombre}}</code> y <code>{{edad}}</code> esto es un poco más limpio porque digamos que la plantilla de cada elemento del listado la tenemos en un único String con lo cual está más o menos separada pero aún así seguimos mezclando bastante y se nos dan situaciones que no resuelve como por ejemplo el hecho de que el nodo que abre la lista y el nodo que la cierra pues tienen que ir a la vez concatenadas en el bucle.</p>
+
+<p>Pero sigue siendo una solución que no acaba de ser la más eficiente estas dos formas no son una forma limpia. Precisamente los motores de plantillas vienen para solucionar esta combinación de datos con html en un entorno del lado del cliente es decir en un entorno controlado por javascript.</p>
+
+<h3 id="conceptos-básicos">Conceptos básicos</h3>
+
+<p>Los componentes principales de cualquier motor de plantilla son :</p>
+
+<ul>
+<li>Por un lado evidentemente la <code>plantilla html</code> que normalmente es la representación visual de la información que queremos o bien modificar en la página existente o bien incluir como contenido nuevo y esta plantilla lo que persigue normalmente es ser una mera representación lo mas cercana html posible de manera que no tenga ninguna complejidad adicional.</li>
+<li>Por otro lado tenemos los <code>datos</code> que son los que se combinarán con la plantilla para obtener el resultado final, es decir si tenemos una plantilla para mostrar la ficha de una película pues tendríamos que tener por otro lado los datos de la película que completarán esa plantilla para personalizarla en el caso de esa película en concreto, pues normalmente cómo nos podemos imaginar estos datos vienen o bien de la introducción manual desde un formulario por parte del usuario o bien desde una petición al servidor que nos devuelve dicha información en el caso de javascript en la mayoría de los casos en formato json.</li>
+<li>Por otro lado tenemos las <code>expresiones</code> que lo que nos permiten es precisamente unir esa plantilla con esos datos, estás expresiones son la herramienta que nos da el motor de plantillas para poder indicar en la plantilla dónde van a ir los datos e incluso poder hacer determinados operaciones con esos datos antes de que se procesan para dar el resultado final, estás expresiones es donde normalmente se encuentra la diferencia principal entre motores de plantillas ya que algunos tienden a aumentar su complejidad y su potencia para que el propio motor de plantilla contemple diferentes opciones sobre los datos a la hora de mostrarlos en la plantilla y hay otra aproximación que es la que da handlebars que es que se diferencia al máximo posible lo que es la vista de la lógica de la aplicación de manera que la plantilla sea una plantilla pura, los datos vayan por separado y las expresiones sean lo más sencillas posible para que simplemente permitan incluir o no los datos, obviamente esta aproximación que tiene él va a extenderse con otras herramientas que nos van a permitir adaptar esa manera de pintar la plantilla en el caso de cada una de las necesidades de nuestro proyecto existe la diferencia entre los motores de plantillas principal en este punto que es como gestionar las expresiones o la manera de incluir los datos en la plantilla.</li>
+<li>Y finalmente están <code>los procesos de renderizado y compilación</code> en el caso de renderizado es el proceso a través del cual el motor consigue generar el html final para ser pintado en pantalla y por otro lado la compilación e incluso en algunos casos precompilacion es como gestionar esa plantilla a la hora de optimizar el trabajo con ella posteriormente al aplicar los datos, en el caso particular de handlebars permite la precompilacion incluso que como consecuencia nos ofrece un rendimiento notablemente superior a otros motores que no cuentan con esta característica.</li>
+</ul>
+
+<p>Vamos a ver en este sencillo ejemplo de cómo hacer uso de las expresiones que es el mecanismo con el que cuenta el motor de plantillas en este caso handlebar para vincular los datos de los que disponemos a las zonas de la plantilla donde corresponda para ello vamos a crear un fichero html para poder mostar cómo se utilizan las expresiones.</p>
+
+<pre><code class="language-html">&lt;div&gt;
+	&lt;h2&gt;{{titulo}}&lt;/h2&gt;
+	&lt;h3&gt;{{breve}}&lt;/h3&gt;
+	&lt;p&gt;{{descripcion}}&lt;/p&gt;
+	&lt;img src=&quot;{{imagen}}&quot; alt=&quot;{{breve}}&quot; /&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Evidentemente para que esto funcionará tendríamos que tener un objeto en javascript que tuviera esos campos título, breve, descripción y imagen de manera que handlebars fuera capaz de encontrar ese dato y hacer el reemplazo en la zona de la plantilla que correspondía, esto es el uso más sencillo de las expresiones en handlebars.</p>
+
+<h3 id="el-clásico-hola-mundo">El clásico Hola Mundo</h3>
+
+<pre><code class="language-html">&lt;!-- Hacemos refrencia al archivo handlebars --&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Creamos la plantilla en handlebar de la siguiente manera. --&gt;
+&lt;script id=&quot;mi-plantilla&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+    ¡Hola mundo!
+&lt;/script&gt;
+
+&lt;!-- Luego agregamos la siguiente etiqueta --&gt;
+&lt;div id=&quot;contenedor&quot;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+// Hacemos uso de javascript para generar el handlebar
+window.onload = function() {
+    let contenedor;
+    let origen;
+    let plantilla;
+
+    contenedor = document.getElementById('contenedor');
+    origen = document.getElementById('mi-plantilla').innerHTML;
+
+    // aquí se hace la compilación
+    plantilla = Handlebars.compile(origen);
+
+    contenedor.innerHTML = plantilla();
+}
+&lt;/script&gt;
+</code></pre>
+
+<h3 id="una-plantilla-más-trabajada">Una plantilla más trabajada</h3>
+
+<pre><code class="language-html">&lt;!-- Hacemos refrencia al archivo handlebars --&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Creamos la plantilla en handlebar de la siguiente manera. --&gt;
+&lt;script id=&quot;mi-plantilla&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+    &lt;p&gt;¡Hola {{nombre}}!&lt;/p&gt;
+    &lt;!-- esta accidendo a esos datos a la pocisión 0 como si fuera un array y esta buscando ese campo nombre --&gt;
+    &lt;p&gt;¡Hola {{this.[0].nombre}}!&lt;/p&gt;
+&lt;/script&gt;
+
+&lt;!-- Luego agregamos la siguiente etiqueta --&gt;
+&lt;div id=&quot;contenedor&quot;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+    $(document).ready(function() {
+        var origen = $('#mi-plantilla').html();
+        var plantilla = Handlebars.compile(origen);
+
+        var persona_A = { nombre: 'Carlos', edad: 20};
+        var persona_B = { nombre: 'Alicia', edad: 22};
+        var alumnos = [persona_A, persona_B];
+
+        $('#contenedor').html( plantilla(alumnos) );
+    })
+&lt;/script&gt;
+
+</code></pre>
+
+<p><code>This</code> hace alusión siempre al contexto mismo en el que nos encontramos en la plantilla, en este caso el array alumnos y vemos que la diferencia está en que al contrario de cómo ocurren en javascrit donde se utiliza <code>this</code> con el corchete seguido en handlebars para referirnos a un array hay que poner el punto siempre entre cada uno de los elementos, es decir el equivalente en javascript que tendríamos que aplicar para acceder al primer elemento del array alumno sería <code>this[0].nombre</code> y vemos como en el caso de handlebars el array también requiere del punto después del <code>this</code> es la única diferencia así notable que existe con la sintaxis habitual empleada en javascript y por lo tanto de esta manera podemos acceder a la posición de un array y concretamente a la propiedad nombre de elemento en caso de existir.</p>
+
+<p>Cómo último detalle cabe destacar que este punto se puede sustituir en handlebars por el símbolo de la barra (<code>/</code> =&gt; <code>this/[0]/nombre</code>) precisamente también para hacerlo en parte compatible con mustasch que es el origen de handlebars. Personalmente prefiero el punto porque me parece que es mucho más legible a la hora de entenderlo como datos en JavaScript.</p>
+
+<h3 id="comentarios-con-handlebars">Comentarios con handlebars</h3>
+
+<pre><code class="language-html">&lt;!-- Hacemos refrencia al archivo handlebars --&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Creamos la plantilla en handlebar de la siguiente manera. --&gt;
+&lt;script id=&quot;mi-plantilla&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+    &lt;p&gt;¡Hola {{nombre}}!&lt;/p&gt;
+    {{! Esto es un comentario de Handlebars }}    
+    {{!-- Esto es un tercer comentario con {{nombre}} --}}
+&lt;/script&gt;
+
+&lt;!-- Luego agregamos la siguiente etiqueta --&gt;
+&lt;div id=&quot;contenedor&quot;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+    $(document).ready(function() {
+        var origen   = $(&quot;#mi-plantilla&quot;).html();
+        var plantilla = Handlebars.compile(origen);
+        var persona = { nombre: 'Carlos', edad: 30};
+        
+        $('#contenedor').html( plantilla(persona) );
+    })
+&lt;/script&gt;
+
+</code></pre>
+
+<h3 id="mi-primera-plantilla">Mi primera plantilla</h3>
+
+<pre><code class="language-css">.poster, .info {
+	box-sizing: border-box;
+	float: left;
+}
+
+.poster {
+	width: 50%;
+	padding-right: 20px;
+}
+
+.poster img {
+	width: 100%;
+	height: auto;
+}
+
+.info {
+	width: 50%;
+	padding-left: 20px;
+}
+
+.clearfix {
+	clear: both;
+}
+</code></pre>
+
+<p>Guardamos el código anterior como <code>pelicula.css</code> y lo referenciamos al siguiente archivo.</p>
+
+<pre><code class="language-html">&lt;!-- referencias --&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/pelicula.css&quot;&gt;
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- Creamos la plantilla en handlebar de la siguiente manera. --&gt;
+&lt;script id=&quot;pelicula&quot; type=&quot;text/x-handlebars-template&quot;&gt;
+    &lt;div class=&quot;film&quot;&gt;
+        &lt;div class=&quot;poster&quot;&gt;
+            &lt;img src=&quot;{{cartel}}&quot; alt=&quot;{{titulo}}&quot; /&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;info&quot;&gt;
+            &lt;h2&gt;{{titulo}} ({{anio}})&lt;/h2&gt;
+            &lt;p&gt;Duración: {{duracion}} min.&lt;/p&gt;
+            &lt;h3&gt;Sinopsis&lt;/h3&gt;
+            &lt;p&gt;{{sinopsis}}&lt;/p&gt;
+            &lt;p&gt;{{{fichacompleta}}}&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;br class=&quot;clearfix&quot; /&gt;
+    &lt;/div&gt;
+&lt;/script&gt;
+
+&lt;!-- Luego agregamos la siguiente etiqueta --&gt;
+&lt;div id=&quot;contenedor&quot;&gt;&lt;/div&gt;
+
+&lt;script&gt;
+    $(document).ready(function() {
+        
+        let pelicula = { 
+            titulo: 'Cadena Perpetua', 
+            anio: 1994,
+            duracion: 142,
+            sinopsis: 'Dos hombres encarcelados durante años, que encuentran consuelo y redención a través de actos de decencia común.',
+            cartel: 'https://gcdn.emol.cl/los-90/files/2016/08/Sueno-de-fuga.jpg',
+            fichacompleta: '&lt;a href=&quot;http://www.imdb.com/title/tt0111161/?ref_=nm_knf_i1&quot; target=&quot;_blank&quot;&gt;Ver ficha en IMDB&lt;/a&gt;'
+        };
+
+        let origen = $('#pelicula').html();
+        let plantilla = Handlebars.compile( origen );
+
+        $('#contenedor').html( plantilla(pelicula) );
+        
+    })
+&lt;/script&gt;
+
+</code></pre>
+
+<p>El resultado sera el siguiente:</p>
+
+<p><img src="https://i.ibb.co/mtjvvb0/sue-osdefuga.png" alt="" /></p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com" style="font-family: 'Raleway'; font-size: 2em; font-weight: bold; color: black;">
+          DonProgramador();
+          
+        </a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contáctame</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Lima, Perú</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:hugo.rock20@hotmail.com"><i
+                class="ti-email mr-3 text-primary"></i>hugo.rock20@hotmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Redes Sociales</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="mailto:hugo.rock20@hotmail.com">Email</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/HuugooRoca">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="skype:hugo.rock20?chat">Skype</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/HugoRoca">Github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/hugoroca/">Linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categorias</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/base-de-datos">Base de datos</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/sistemas">Sistemas</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/tutoriales">Tutoriales</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Enlaces Rápidos</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/about">Acerca</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/contact">Contacto</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright &copy; 2021 <a href="https://gohugo.io/">Hugo</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "http://donprogramador.net.s3-website.us-east-2.amazonaws.com/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/slick/slick.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/search/fuse.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/search/mark.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/js/script.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    hljs.initHighlightingOnLoad();
+    
+
+    $('pre code').each(function(i, block) {
+      hljs.highlightBlock(block);
+    });
+
+    
+    
+    
+  });
+</script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	Este sitio utiliza cookies. Si continúa utilizando este sitio web, acepte su uso. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">Acepto</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

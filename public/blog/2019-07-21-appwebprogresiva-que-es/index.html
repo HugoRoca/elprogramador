@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es-pe"><head>
+  <meta charset="utf-8">
+  <title>El Programador | Blog personal</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="En este pequeña publicación vamos a definir y entender que es una aplicación web progresiva. Empecemos hablando de los beneficios de crear una página web sobre una aplicación nativa. ">
+  <meta name="author" content="Hugo Roca">
+  <meta name="generator" content="Hugo 0.58.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/images/favicon.ico " type="image/x-icon">
+  <link rel="icon" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/images/favicon.ico " type="image/x-icon">
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/css/syntax.css">
+
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/highlight/styles/atom-one-light.css ">
+  <script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/highlight/highlight.pack.js" type='text/javascript'></script>
+  
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com" style="font-family: 'Raleway'; font-size: 2em; font-weight: bold; color: black;">
+        DonProgramador();
+        
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:hugo.rock20@hotmail.com"><i class="ti-email"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/HuugooRoca"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="skype:hugo.rock20?chat"><i class="ti-skype"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/HugoRoca"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/hugoroca/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com" style="font-family: 'Raleway'; font-size: 2em; font-weight: bold; color: black;">
+          DonProgramador();
+          
+        </a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/about">Acerca</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/contact">Contacto</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Escriba y pulsa enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/tutoriales"
+          class="text-primary">Tutoriales</a>
+        
+        <h2>¿Que son las aplicaciones web progresivas?</h2>
+        <div class="mb-3 post-meta">
+          <span>Por Hugo Roca</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>21/07/2019</span>
+          
+        </div>
+        
+        <img src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/images/post/2019-07-21-AppWebProgresiva-que-es.jpg" class="img-fluid w-100 mb-4" alt="¿Que son las aplicaciones web progresivas?">
+        
+        <div class="content mb-5">
+          
+
+<p>En esta pequeña publicación vamos a definir y entender que es una aplicación web progresiva.</p>
+
+<p>Empecemos hablando de los beneficios de crear una página web sobre una aplicación nativa.</p>
+
+<ul>
+<li>Son <strong>linkeables</strong>, eso quiere decir que te puedes mover entre páginas con un simple y sencillo link.</li>
+<li>Son <strong>indexables</strong>, aquí hacemos referencia el hecho de que uno puede navegar y buscar entre páginas de manera simple a diferencia de las aplicaciones nativas.</li>
+<li>Tambien son <strong>multiplataforma</strong>, una página web corre en cualquier navegador sin la necesidad de que modifiquemos el código</li>
+<li>Y por ultimo son <strong>fáciles de actualizar</strong> ha diferencia de las aplicaciones nativas donde hay un proceso más lento de modificaciones a través de las tiendas.</li>
+</ul>
+
+<p>Por otro lado las aplicaciones nativas aventajan a las páginas web en lo siguiente:</p>
+
+<ul>
+<li>Pueden funcionar <strong>con o sin internet</strong>, ahí frente a diferencia las páginas web que requiere una conexión de internet pues para acceder a la página.</li>
+<li>Tienen acceso al <strong>hardware</strong> el dispositivo, cosas como la cámara el GPS los micrófonos y otras cosas.</li>
+<li>Tienen carga inmediata el proceso del rénder una aplicación nativa es más rápido porque lo que necesitan para mostrar la vista inicial ya se encuentra en el dispositivo a diferencia de las páginas web que tienen que descargar el contenido de un servidor remoto.</li>
+<li><strong>Push notifications</strong>, las aplicaciones nativas reciben una notificaciónes push que tienen un montón de beneficios que nos vamos a ir de discutir en esta ocasión.</li>
+</ul>
+
+<p>Ahora bien las aplicaciones web progresivas como te habrás imaginado busca en combinar lo mejor de ambos mundos, cumplen con las características de una página web pues porque prácticamente son una página web, además cumplen con muchas de las caracteristicas que destacan a una aplicación nativa, reciben push notifications, funcionan offline, tienen acceso al hardware vía las APIS de HTML5 y cargan de inmediato.</p>
+
+<p>La pregunta ahora es como lo hacen que hace, que hace una aplicación web progresiva distinta de a una página web y que las hace diferentes de una aplicación nativa, empecemos por lo más sencillo, una aplicación web progresiva se diferencia de una app nativa en múltiples aspectos:</p>
+
+<ul>
+<li>Se escribe con tecnologías web estándar como HTML, CSS y javascript.</li>
+<li>No se instala en vías tiendas propietarias como la Play Store o al AppStore.</li>
+<li>No usa código nativo como JAVA o SWIFT, en pocas palabras no funciona como una aplicación nativa, simplemente no es una, no tiene acceso a las mismas Apis ni al mismo hardware.</li>
+</ul>
+
+<p>Diferenciarlas de una página web tradicional requiere de un poquito mas de detalle porque vamos a decir que una aplicación web progresiva es un tipo de página web, una página web con capacidades añadidas, veamos cuáles son estas capacidades extras como se agreguen y por qué lo hacemos.</p>
+
+<h3 id="1-offline">1. Offline</h3>
+
+<p>Las aplicaciones web progresivas tienen acceso sin internet, tradicionalmente sabemos que necesitamos internet para poder acceder a una página web, en términos sencillos para que podamos visitar una página el navegador envía una petición al servidor en el que ésta se aloja, ese servidor puede encontrarse en cualquier parte del mundo y es precisamente vía el internet que buscamos y nos conectamos con dicho servidor, una aplicación web progresivo utilice una tecnología de nombre <strong>service workers</strong> que actúa como un pequeño servidor dentro del navegador que permite mostrar páginas aunque no halla internet o estemos usando una conexión lenta, para poder hacer esto el navegador implementa un cache propio donde podemos guardar los archivos que no cambian dentro de nuestra página para que sea este el servidor interno el que los envié desde el caché local en lugar de tener que ir hasta el servidor remoto, el beneficio de esto es que cuando no existe conexión a internet es la service worker la que se encarga de entregar el contenido que tiene guardado.
+- Instalación local, vía un archivo de configuración al que llamamos <strong>manifesto</strong> el navegador sabe que tu APP se puede agregar a la pantalla principal de un teléfono. haciendo que tu aplicación web se muestren prácticamente como una aplicación nativa.</p>
+
+<p><img src="/images/PWA-que-es/manifesto.JPG" alt="manifesto.jpg" /></p>
+
+<p>Los navegadores que soportan esta funcionalidad muestran un banner en la parte inferior de la pantalla para hacer saber al usuario que la página se puede agregar al home de su teléfono, el proceso de <strong>&ldquo;instalación local&rdquo;</strong> implica agregar un icono al home pero además algo que mencionamos antes, guarda parte de la página del caché para mostrarlo desde el navegador en lugar de descargarlo del servidor remoto.</p>
+
+<p><img src="/images/PWA-que-es/home.JPG" alt="manifesto.jpg" /></p>
+
+<h3 id="2-carga-inmediata">2. Carga inmediata</h3>
+
+<p>Como parte de la creación de aplicaciones web progresivas introduce el concepto de <strong>APP Shell</strong>, el Shell de tu aplicación es aquello que se debe mostrar inicialmente, es como el Layout de la estructura que rodea tu contenido.</p>
+
+<p><img src="/images/PWA-que-es/app-shell.JPG" alt="manifesto.jpg" /></p>
+
+<p>El Shell debe ser estático y puede incluir cosas como el encabezado, el menú y probablemente un indicador de que la aplicación se está cargando, la ventaja de definir esta sección de tu página es optimizarlo para que se muestre de inmediato, eso podría significar construir el app shell desde el servidor, cachearlo con service workers y servirlos sin la necesidad de esperar una respuesta del servidor remoto.</p>
+
+<h3 id="3-notificaciones-push">3. Notificaciones push</h3>
+
+<p>Una de las características de las notificaciones push es que se ejecutan sin ninguna acción del usuario, vienen de algún lado, incluso cuando la app ni siquiera está abierta, no quiero que andemos mucho en por qué es complicado en el desarrollo web tradicional hacer esto pero lo es, básicamente en la mayoría en los casos el cliente sabe acerca del servidor pero el servidor no sabe nada acerca del cliente, no sabe dónde está, de manera que él servidor no podría enviarle push notifications, por otro lado usualmente entendemos que una página se muere, se acaba por completo cuando cerramos las pestañas, entonces cómo podríamos hacer esto, resulta ser que la <strong>service worker</strong> es una tecnologías que se ejecutan en el background, lo que permite introducir nuevas tecnologías para notificaciones push o actualizaciones en el background incluso cuando la página está cerrada cosas que no se podían hacer antes.</p>
+
+<h3 id="4-hardware">4. Hardware</h3>
+
+<p>Desde hace ya varios años los navegadores no son lo que parece, tienen capacidades extendidas que les permiten acceder a hardware del usuario, la Apis son un montón y muy diversas desde acceso a la cámara, acceso al GPS, sensores de iluminación, almacenamiento local, bases de datos internas y muchas más.</p>
+
+<h3 id="5-diseño-responsive">5. Diseño responsive</h3>
+
+<p>No lo había mencionado antes pero una parte esencial de crear una aplicación web progresivo es que funcione en cualquier dispositivo, desde teléfonos hasta un reloj inteligente.
+Esta necesidad implica por un lado aprender diseño responsiva pero además estrategias de experiencia de usuario que se adapten a los cambios en el tamaño de cada una de las pantallas, aquí podemos apoyarnos de cosas como material desing, que es la guía de diseño que Google creó para aplicar a sus productos, material desing es un tema que incluye colores, grillas y componentes pero además algo muy importante animaciones y transiciones que forman parte de la experiencia con la que el usuario navega dentro de tu aplicación.</p>
+
+<p>En conclusión, podemos ver que las aplicaciones web progresivas hacen uso de múltiples tecnologías para poder ofrecer la experiencia de una app nativa sin perder los beneficios de ser una aplicación web.
+Progressive web app es más acerca de una experiencia que de una herramienta, un lenguaje o un framework, por lo tanto a pesar de de que es fácil enlazar una serie de tecnologías como la service Workers construir una aplicación web progresiva es más bien utilizar las herramientas existentes de manera creativa para poder ofrecer una experiencia enriquecida para nuestros usuarios.</p>
+
+<h4 id="comenta-disfruta-y-comparte">Comenta, disfruta y comparte!</h4>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com" style="font-family: 'Raleway'; font-size: 2em; font-weight: bold; color: black;">
+          DonProgramador();
+          
+        </a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contáctame</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Lima, Perú</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:hugo.rock20@hotmail.com"><i
+                class="ti-email mr-3 text-primary"></i>hugo.rock20@hotmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Redes Sociales</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="mailto:hugo.rock20@hotmail.com">Email</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/HuugooRoca">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="skype:hugo.rock20?chat">Skype</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/HugoRoca">Github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/hugoroca/">Linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categorias</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/base-de-datos">Base de datos</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/sistemas">Sistemas</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/tutoriales">Tutoriales</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Enlaces Rápidos</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/about">Acerca</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/contact">Contacto</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright &copy; 2021 <a href="https://gohugo.io/">Hugo</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "http://donprogramador.net.s3-website.us-east-2.amazonaws.com/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/slick/slick.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/search/fuse.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/search/mark.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/js/script.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    hljs.initHighlightingOnLoad();
+    
+
+    $('pre code').each(function(i, block) {
+      hljs.highlightBlock(block);
+    });
+
+    
+    
+    
+  });
+</script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	Este sitio utiliza cookies. Si continúa utilizando este sitio web, acepte su uso. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">Acepto</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

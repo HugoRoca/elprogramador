@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on El Programador | Blog personal</title>
+    <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/categories/</link>
+    <description>Recent content in Categories on El Programador | Blog personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-pe</language>
+    <lastBuildDate>Sun, 21 Jul 2019 10:07:47 +0600</lastBuildDate>
+    
+	<atom:link href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutoriales</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/categories/tutoriales/</link>
+      <pubDate>Sun, 21 Jul 2019 10:07:47 +0600</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/categories/tutoriales/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Base de datos</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/categories/base-de-datos/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/categories/base-de-datos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sistemas</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/categories/sistemas/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/categories/sistemas/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

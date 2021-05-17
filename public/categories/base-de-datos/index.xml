@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Base de datos on El Programador | Blog personal</title>
+    <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/categories/base-de-datos/</link>
+    <description>Recent content in Base de datos on El Programador | Blog personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-pe</language>
+    <lastBuildDate>Mon, 13 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/categories/base-de-datos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conexión NodeJS con MongoDB Atlas</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-05-13-nodejs-mongodb/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-05-13-nodejs-mongodb/</guid>
+      <description>MongoDB Atlas es la base de datos como servicio que permite implementar, utilizar y escalar una base de datos de MongoDB en la nube haciendo conexión con NodeJS.</description>
+    </item>
+    
+    <item>
+      <title>Configuración de una cuenta en MongoDB Atlas</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-05-06-mongodb-atlas/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-05-06-mongodb-atlas/</guid>
+      <description>MongoDB Atlas ofrece la base de datos líder mundial para aplicaciones modernas como un servicio en la nube totalmente automatizado, diseñado y ejecutado por el mismo equipo que construye la base de datos.</description>
+    </item>
+    
+    <item>
+      <title>Registro de errores con Log4Net</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-05-20-log4net/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-05-20-log4net/</guid>
+      <description>Si eres un gran desarrollador sabrás que todo software debe de tener un LOG, en esta oportunidad te muestro un aplicativo de como se hace uno.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework Básico</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-05-06-entityframework-basico/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-05-06-entityframework-basico/</guid>
+      <description>Una forma mas rápida de realizar CRUD&amp;rsquo;s, a tan solo unos clicks.</description>
+    </item>
+    
+    <item>
+      <title>Scripts SQLServer</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-04-29-scripts-sqlserver/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-04-29-scripts-sqlserver/</guid>
+      <description>Les comparto algunos scripts que me sirvieron de mucho durante el tiempo que llevo trabajando, y es más aún los sigo usando.</description>
+    </item>
+    
+  </channel>
+</rss>

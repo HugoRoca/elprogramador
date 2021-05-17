@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="es-pe"><head>
+  <meta charset="utf-8">
+  <title>El Programador | Blog personal</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="En este pequeño post te explicaré como crear una aplicación de chat en tiempo real paso a paso. Para entender todo este proceso se requiere que tengas conocimientos en nodeJS, mongoDB, javascript, html5 y css3.">
+  <meta name="author" content="Hugo Roca">
+  <meta name="generator" content="Hugo 0.58.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/images/favicon.ico " type="image/x-icon">
+  <link rel="icon" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/images/favicon.ico " type="image/x-icon">
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/css/syntax.css">
+
+  <link rel="stylesheet" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/highlight/styles/atom-one-light.css ">
+  <script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/highlight/highlight.pack.js" type='text/javascript'></script>
+  
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com" style="font-family: 'Raleway'; font-size: 2em; font-weight: bold; color: black;">
+        DonProgramador();
+        
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:hugo.rock20@hotmail.com"><i class="ti-email"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/HuugooRoca"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="skype:hugo.rock20?chat"><i class="ti-skype"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/HugoRoca"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/hugoroca/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com" style="font-family: 'Raleway'; font-size: 2em; font-weight: bold; color: black;">
+          DonProgramador();
+          
+        </a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/about">Acerca</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/contact">Contacto</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Escriba y pulsa enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/tutoriales"
+          class="text-primary">Tutoriales</a>
+        
+        <h2>CHAT en tiempo real con NodeJS, Express, BlueBirdJS, Socket.IO y mongoDB</h2>
+        <div class="mb-3 post-meta">
+          <span>Por Hugo Roca</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>30/06/2019</span>
+          
+        </div>
+        
+        <img src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/images/post/2019-06-30-app-chat-express-socket.io-mongodb-bluebird.jpg" class="img-fluid w-100 mb-4" alt="CHAT en tiempo real con NodeJS, Express, BlueBirdJS, Socket.IO y mongoDB">
+        
+        <div class="content mb-5">
+          
+
+<p>En este pequeño post te explicaré como crear una aplicación de chat en tiempo real paso a paso. Para entender todo este proceso se requiere que tengas conocimientos en nodeJS, mongoDB, javascript, html5 y css3.</p>
+
+<h3 id="instalando-paquetes-y-configuración">Instalando paquetes y configuración</h3>
+
+<p>Lo primero que tenemos que hacer es crear un directorio en donde estarán todos nuestros archivos, puedes utilizar el editor de código que mas se adecue a tí. En mi caso usaré <em>VSCode</em>.</p>
+
+<p>En la consola ejecutamos la siguiente linea: <code>npm init</code> esto quiere decir que estamos iniciando el directorio como una aplicación nodeJS. Se te pedirá que completes algo de información. Esta se utilizará para configurar el archivo <em>package.json</em>.</p>
+
+<p>Utilizaremos <strong>express</strong> para crear nuestro servidor web que alojará nuestros archivos estáticos y <strong>body-parser</strong> para extraer todo el cuerpo de una solicitud entrante.</p>
+
+<pre><code class="language-cmd">npm install express body-parser --save
+</code></pre>
+
+<p>A continuación, instalamos <strong>mongoose</strong>, esto es un ODM (Object Document Mapper) para MongoDB y hará que nuestro trabajo sea mucho más fácil. Vamos a instalarlo junto a <strong>socket.io</strong> y <strong>bluebird</strong>. Para tener algo de contexto de estas dos ultimas; <strong>Socket.io</strong> es una biblioteca de javascript para aplicaciones web en tiempo real. <strong>Bluebird</strong> es una biblioteca Promise con todas las funciones para javascript.</p>
+
+<pre><code class="language-cmd">npm install mongoose socket.io bluebird --save
+</code></pre>
+
+<blockquote>
+<p>Puedes instalar nodemon para no estar iniciando el servidor con cualquier modificación que hagamos, esto es opcional. <code>npm install nodemon</code></p>
+</blockquote>
+
+<p>Este será nuestro árbol de archivos para esta app.</p>
+
+<pre><code>.
+├── client
+|   ├── css
+|   |   └── style.css
+|   ├── js
+|   |   ├── chat.js
+|   |   ├── fortmatTimeStamp.js
+|   |   └── socket.io
+|   └── index.html      
+├── server
+|   ├── controllers
+|   |   └── chat.js
+|   ├── mongoDB
+|   |   ├── chatSchema.js
+|   |   └── dbconnection.js
+|   └── routes
+|       └── chat.js
+├── app.js
+└── package.json
+</code></pre>
+
+<h3 id="creando-el-lado-cliente">Creando el lado cliente</h3>
+
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;es&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
+    &lt;title&gt;Chat&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot;
+        integrity=&quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot; crossorigin=&quot;anonymous&quot;&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;./css/style.css&quot;&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row justify-content-md-center mt-3&quot;&gt;
+            &lt;div class=&quot;col-md-7&quot;&gt;
+                &lt;div class=&quot;card&quot;&gt;
+                    &lt;div class=&quot;card-header&quot;&gt;
+                        &lt;h4 class=&quot;text-center&quot;&gt;CHAT&lt;/h4&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;card-body&quot;&gt;
+                        &lt;ul class=&quot;chat&quot; id=&quot;listaMensajes&quot;&gt;
+
+                        &lt;/ul&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&quot;card-footer&quot;&gt;
+                        &lt;small id=&quot;escribiendo&quot;&gt;&amp;nbsp;&lt;/small&gt;
+                        &lt;form id=&quot;form&quot;&gt;
+                            &lt;div class=&quot;input-group&quot;&gt;
+                                &lt;input id=&quot;mensaje&quot; type=&quot;text&quot; class=&quot;form-control&quot;
+                                    placeholder=&quot;Escribe tu mensaje aquí...&quot; autocomplete=&quot;off&quot; /&gt;
+                                &lt;span class=&quot;input-group-append&quot;&gt;
+                                    &lt;button class=&quot;btn btn-warning&quot; id=&quot;btn-chat&quot;&gt;Enviar&lt;/button&gt;
+                                &lt;/span&gt;
+                            &lt;/div&gt;
+                        &lt;/form&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;./js/formatTimeStamp.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;./js/socket.io.js&quot;&gt;&lt;/script&gt;
+    &lt;script src=&quot;./js/chat.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+
+<p>Este será nuestro archivo HTML que servirá para la interfaz, para instanciar socket.io en el cliente, puedes obtener el código haciendo click <a href="https://github.com/socketio/socket.io-client/blob/master/dist/socket.io.js">aquí</a>.</p>
+
+<blockquote>
+<p>formatTimeStamp.js nos servirá para obtener el momento en que se envio el mensaje, si fue hoy, ayer o la semana pasada. Puedes obtener el código dando click <a href="https://cdn.jsdelivr.net/gh/rexeze/formatTimeStamp/src/index-cdn.js">aquí</a>.</p>
+</blockquote>
+
+<p>Antes de configurar el archivo <strong>chat.js</strong> debemos de centrarnos en el desarrollo del backend.</p>
+
+<h3 id="creando-el-lado-servidor">Creando el lado servidor</h3>
+
+<p>Empezaremos creando la conexión con mongoDB, para ello crearemos dos archivos dentro de <code>./server/mongoDB/</code>.</p>
+
+<p>El primero lo llamaremos <strong>chatSchema.js</strong>, aquí crearemos un esquema de la colección que se creará.
+Solo tendremos 3 campos en nuestro esquema:</p>
+
+<ul>
+<li>un campo de mensaje</li>
+<li>un campo de remitente</li>
+
+<li><p>una marca de tiempo.</p>
+
+<pre><code class="language-js">const mongoose = require(&quot;mongoose&quot;);
+const Schema = mongoose.Schema;
+
+const chatSchema = new Schema({
+message: {
+    type: String
+},
+sender: {
+    type: String
+}
+}, {
+timestamps: true
+});
+
+let Chat = mongoose.model(&quot;chats&quot;, chatSchema);
+
+module.exports = Chat;
+</code></pre></li>
+</ul>
+
+<p>Luego creamos el archivo <strong>dbconnection.js</strong>, aquí tendremos la conexión con mongoDB a partir del esquema creado y tambien veremos como implementamos <strong>bluebird.js</strong>.</p>
+
+<pre><code class="language-js">const mongoose = require(&quot;mongoose&quot;);
+mongoose.Promise = require(&quot;bluebird&quot;);
+
+const url = &quot;localhost:1111/test&quot;; //conexion mongo
+
+const connect = mongoose.connect(url, { useNewUrlParser: true });
+
+module.exports = connect;
+</code></pre>
+
+<p>Luego de haber realizado la conexión, crearemos el controlador, para ellos creamos un archivo dentro de <code>./server/controller/</code>, este archivo tendrá el nombre de <strong>chat.js</strong>. En este archivo referenciaremos la conexión y el esquema de mongo para realizar lo siguiente:</p>
+
+<pre><code class="language-js">&quot;use strict&quot;;
+
+const connectdb = require(&quot;../mongoDB/dbconnection&quot;);
+const chat = require(&quot;../mongoDB/chatSchema&quot;);
+
+exports.obtener = ((req, res, nect) =&gt; {
+    res.setHeader(&quot;Content-Type&quot;, &quot;application/json&quot;);
+    res.statusCode = 200;
+
+    connectdb.then(db =&gt; {
+        chat.find({}).then(chat =&gt;{
+            res.json(chat);
+        });
+    });
+});
+</code></pre>
+
+<p>Este controlador nos permitirá obtener un listado de todos los chats que se han registrado en mongoDB.</p>
+
+<p>Estamos a pocos pasos de terminar, ahora solo queda crear la ruta y configurar todo dentro del archivo <strong>app.js</strong>. Para realizar el routeo del controlador debemos de crear un archivo dentro de <code>./server/routes/</code> al cual llamaremos chat.js, realizamos lo siguiente:</p>
+
+<pre><code class="language-js">const express = require(&quot;express&quot;);
+const controller = require(&quot;../controllers/chat&quot;);
+const router = express.Router();
+
+router.route(&quot;/&quot;).get(controller.obtener);
+
+module.exports = router;
+</code></pre>
+
+<h3 id="configurando-app-js">Configurando app.js</h3>
+
+<p>Empezaremos creando las referencias hacia los paquetes npm y los archivos creados asi como tambien el puerto donde se desplegará.</p>
+
+<pre><code class="language-js">const port = 2705;
+const express = require(&quot;express&quot;);
+const app = express();
+const bodyParser = require(&quot;body-parser&quot;);
+const http = require(&quot;http&quot;).Server(app);
+const io = require(&quot;socket.io&quot;);
+const socket = io(http);
+const chatRouter = require(&quot;./server/routes/chat&quot;);
+const chatSchema = require(&quot;./server/mongoDB/chatSchema&quot;);
+const connectDB = require(&quot;./server/mongoDB/dbconnection&quot;);
+</code></pre>
+
+<p>Luego configuramos las rutas, ademas de eso configuramos bodyParser y una ruta estatica para mostrar el lado cliente</p>
+
+<pre><code class="language-js">app.use(bodyParser.json());
+app.use(&quot;/chat&quot;, chatRouter);
+app.use(express.static(`${__dirname}/client`));
+</code></pre>
+
+<p>Ahora viene lo bueno, configuraremos socket.io para los siguientes eventos:</p>
+
+<ul>
+<li>usuario conectado</li>
+<li>usuario desconectado</li>
+<li>escribiendo</li>
+<li>dejar de escribir</li>
+<li>mensaje enviado</li>
+</ul>
+
+<p>Empezaremos por el evento usuario conectado, este evento sera el contenedor de los demas eventos, basicamente funcionará como un <em>change stream</em>. De paso tambien configuramos el evento de usuario desconectado.</p>
+
+<pre><code class="language-js">socket.on(&quot;connection&quot;, (socket) =&gt; {
+    console.log(&quot;usuario conectado&quot;);
+
+    socket.on(&quot;disconnect&quot;, () =&gt; {
+        console.log(&quot;usuario desconectado&quot;);
+    });
+
+    // aquí va evento escribiendo
+
+    // aquí va evento dejar de escribir
+
+    // aquí va mensaje enviado
+});
+</code></pre>
+
+<blockquote>
+<p>Si un nuevo usuario visita localhost:2705, se imprimirá el mensaje &ldquo;usuario conectado&rdquo; en la consola. Socket.on() toma un nombre de evento y una devolución de llamada como parámetros.</p>
+</blockquote>
+
+<p>Ahora nos toca configurar la parte de escribir y dejar de escribir, esto es como un adicional, es muy sencillo implementarlo, hay que tener en cuenta que esto va dentro del evento &ldquo;connection&rdquo; del código anterior.</p>
+
+<pre><code class="language-js">socket.on(&quot;typing&quot;, data =&gt; {
+    socket.broadcast.emit(&quot;notifyTyping&quot;, {
+        user: data.user,
+        message: data.message
+    });
+});
+
+socket.on(&quot;stopTyping&quot;, () =&gt; {
+    socket.broadcast.emit(&quot;notifyStopTyping&quot;);
+});
+</code></pre>
+
+<p>Y por ultimo configuramos el evento principal, el que escuchará los mensajes y lo registrará en la base de datos.</p>
+
+<pre><code class="language-js">socket.on(&quot;chat message&quot;, (msg) =&gt; {
+    console.log(`message: ${msg}`);
+
+    socket.broadcast.emit(&quot;received&quot;, {
+        message: msg
+    });
+
+    connectDB.then(db =&gt; {
+        let mensaje = new chatSchema({
+            message: msg,
+            sender: &quot;Anónimo&quot;
+        });
+        mensaje.save();
+    });
+});
+</code></pre>
+
+<p>Dentro de este evento, podemos elegir lo que hacemos con el mensaje del cliente: insertarlo en la base de datos, enviarlo de vuelta al cliente, etc. En nuestro caso, lo guardaremos en la base de datos y también lo enviaremos al cliente.</p>
+
+<p>Lo transmitiremos. Eso significa que el servidor lo enviará a todas las demás personas conectadas al servidor, aparte del remitente. Por lo tanto, si el Sr. A envía el mensaje al servidor y el servidor lo transmite, el Sr. B, C, D, etc. lo recibirá, pero el Sr. A no lo hará. No queremos recibir un mensaje que enviamos, ¿verdad? 😭</p>
+
+<p>Eso no significa que no podamos recibir un mensaje que también enviamos. Si eliminamos la bandera de transmisión, también eliminaremos el mensaje.</p>
+
+<p>Aquí es cómo se transmite un evento:</p>
+
+<pre><code class="language-js">socket.broadcast.emit(&quot;received&quot;, {
+    message: msg
+});
+</code></pre>
+
+<p>Y como un paso adicional pero muy importante es poner a escuchar nuestro servidor:</p>
+
+<pre><code class="language-js">http.listen(port, () =&gt; {
+    console.log(`Corriendo en el puerto ${port}`);
+});
+</code></pre>
+
+<h3 id="configuración-del-archivo-chat-js">Configuración del archivo chat.js</h3>
+
+<p>Este archivo es parte del cliente, el que esta referenciado en el html, esto enviará y escuchará los eventos del servidor.</p>
+
+<pre><code class="language-js">&quot;use strict&quot;;
+
+const _SOCKET = io();
+
+const chat = (() =&gt; {
+    const _elementos = {
+        mensajes: $(&quot;#listaMensajes&quot;),
+        escribiendo: $(&quot;#escribiendo&quot;),
+        inputMensaje: $(&quot;#mensaje&quot;)
+    }
+
+    const _utils = {
+        crearHTML: ((mensaje, fecha) =&gt; {
+            return `
+            &lt;li class=&quot;left clearfix&quot;&gt;
+                &lt;div class=&quot;chat-body clearfix&quot;&gt;
+                    &lt;div class=&quot;header&quot;&gt;
+                        &lt;strong class=&quot;primary-font&quot;&gt;Anónimo&lt;/strong&gt;
+                        &lt;small class=&quot;pull-right text-muted&quot;&gt;
+                            &lt;span class=&quot;glyphicon glyphicon-time&quot;&gt;&lt;/span&gt;${fecha}
+                        &lt;/small&gt;
+                    &lt;/div&gt;
+                    &lt;p&gt;${mensaje}&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;`;
+        }),
+
+        scroolListaMensajes: (() =&gt; {
+            $(&quot;.card-body&quot;).animate({
+                scrollTop: $(this).height()
+            }, &quot;slow&quot;);
+        })
+    }
+
+    const _eventos = {
+        enviarMensaje: (() =&gt; {
+            $(&quot;form&quot;).submit((e) =&gt; {
+                e.preventDefault();
+
+                if (!_elementos.inputMensaje.val() ||_elementos.inputMensaje.val() === &quot;&quot;) return false;
+
+                _SOCKET.emit(&quot;chat message&quot;, _elementos.inputMensaje.val());
+
+                let html = _utils.crearHTML(_elementos.inputMensaje.val(), &quot;justo ahora&quot;);
+
+                _elementos.mensajes.append(html);
+
+                _elementos.inputMensaje.val(&quot;&quot;);
+
+                _utils.scroolListaMensajes();
+
+                return false;
+            });
+        }),
+
+        obtenerMensaje: (() =&gt; {
+            _SOCKET.on(&quot;received&quot;, data =&gt; {
+                let html = _utils.crearHTML(data.message, &quot;justo ahora&quot;);
+                _elementos.mensajes.append(html);
+                _utils.scroolListaMensajes();
+            });
+        }),
+
+        cargarMensajes: (() =&gt; {
+            fetch(&quot;/chat&quot;).then(data =&gt; {
+                return data.json();
+            }).then(json =&gt; {
+                json.map(data =&gt; {
+                    let html = _utils.crearHTML(data.message, formatTimeAgo(data.createdAt));
+                    _elementos.mensajes.append(html);
+                });
+                _utils.scroolListaMensajes();
+            });
+        }),
+
+        detectarEscribir: (() =&gt; {
+            _elementos.inputMensaje.on(&quot;keypress&quot;, () =&gt; {
+                _SOCKET.emit(&quot;typing&quot;, {
+                    user: &quot;Someone&quot;,
+                    message: &quot;is typing...&quot;
+                });
+            });
+
+            _SOCKET.on(&quot;notifyTyping&quot;, data =&gt; {
+                _elementos.escribiendo.html(data.user + &quot; &quot; + data.message);
+            });
+        }),
+
+        detectarDejarEscribir: (() =&gt; {
+            _elementos.inputMensaje.on(&quot;keyup&quot;, () =&gt; {
+                _SOCKET.emit(&quot;stopTyping&quot;, &quot;&quot;);
+            });
+
+            _SOCKET.on(&quot;notifyStopTyping&quot;, () =&gt; {
+                _elementos.escribiendo.html(&quot;&amp;nbsp;&quot;);
+            })
+        })
+    }
+
+    const inicializar = (() =&gt; {
+        _eventos.enviarMensaje();
+        _eventos.obtenerMensaje();
+        _eventos.cargarMensajes();
+        _eventos.detectarEscribir();
+        _eventos.detectarDejarEscribir();
+    });
+
+    return {
+        inicializar: inicializar
+    }
+})();
+
+(() =&gt; {
+    chat.inicializar();
+})();
+</code></pre>
+
+<p>El código es muy fácil de entender.</p>
+
+<p>Puedes mejorar este código, agregar autenticación, agregar grupos o convertirlo en un chat individual, volver a modelar el esquema para adaptarse a todo eso, etc.</p>
+
+<p>Espero que esto te haya sido útil. El código completo está en Github. Puedes conseguirlo <a href="https://github.com/PORTAFOLIO-PROYECTOS/AppChat_NodeJS_Socket.io_MongoDB/archive/master.zip">aquí</a>.</p>
+
+<h4 id="comenta-disfruta-y-comparte">Comenta, disfruta y comparte!</h4>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com" style="font-family: 'Raleway'; font-size: 2em; font-weight: bold; color: black;">
+          DonProgramador();
+          
+        </a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contáctame</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Lima, Perú</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:hugo.rock20@hotmail.com"><i
+                class="ti-email mr-3 text-primary"></i>hugo.rock20@hotmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Redes Sociales</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="mailto:hugo.rock20@hotmail.com">Email</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/HuugooRoca">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="skype:hugo.rock20?chat">Skype</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/HugoRoca">Github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/hugoroca/">Linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categorias</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/base-de-datos">Base de datos</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/sistemas">Sistemas</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/tutoriales">Tutoriales</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Enlaces Rápidos</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/about">Acerca</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/contact">Contacto</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright &copy; 2021 <a href="https://gohugo.io/">Hugo</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "http://donprogramador.net.s3-website.us-east-2.amazonaws.com/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/slick/slick.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/venobox/venobox.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/search/fuse.min.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/search/mark.js"></script>
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/js/script.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    hljs.initHighlightingOnLoad();
+    
+
+    $('pre code').each(function(i, block) {
+      hljs.highlightBlock(block);
+    });
+
+    
+    
+    
+  });
+</script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	Este sitio utiliza cookies. Si continúa utilizando este sitio web, acepte su uso. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">Acepto</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

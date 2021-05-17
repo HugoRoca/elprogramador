@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>POO on El Programador | Blog personal</title>
+    <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/tags/poo/</link>
+    <description>Recent content in POO on El Programador | Blog personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-pe</language>
+    <lastBuildDate>Sat, 15 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/tags/poo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Programación Orientada a Objetos</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-09-15-poo/</link>
+      <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-09-15-poo/</guid>
+      <description>POO es un paradigna de programación que comenzó a desarrollarse en los años 80, en ese momento se dieron cuenta que esta forma de programación facilitaba el desarrollo de sistemas de gran tamaño.</description>
+    </item>
+    
+  </channel>
+</rss>

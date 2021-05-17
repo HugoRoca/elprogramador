@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://hugoroca.github.io/elprogramador"
+baseURL = "http://donprogramador.net.s3-website.us-east-2.amazonaws.com"
 languageCode = "es-pe"
 defaultContentLanguage = "es"
 title = "El Programador | Blog personal"

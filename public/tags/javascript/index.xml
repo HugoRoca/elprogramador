@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on El Programador | Blog personal</title>
+    <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/tags/javascript/</link>
+    <description>Recent content in JavaScript on El Programador | Blog personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-pe</language>
+    <lastBuildDate>Thu, 10 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conexión NodeJS con SQLServer</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-01-10-nodejs-sqlserver/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-01-10-nodejs-sqlserver/</guid>
+      <description>Microsoft SQL Server es un sistema de gestión de base de datos relacional (RDBMS) producido por Microsoft.</description>
+    </item>
+    
+  </channel>
+</rss>

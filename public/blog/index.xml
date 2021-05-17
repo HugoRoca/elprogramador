@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on El Programador | Blog personal</title>
+    <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/</link>
+    <description>Recent content in blog on El Programador | Blog personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-pe</language>
+    <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate>
+    
+	<atom:link href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>¿Que son las aplicaciones web progresivas?</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-07-21-appwebprogresiva-que-es/</link>
+      <pubDate>Sun, 21 Jul 2019 10:07:47 +0600</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-07-21-appwebprogresiva-que-es/</guid>
+      <description>En esta pequeña publicación vamos a definir y entender que es una aplicación web progresiva.</description>
+    </item>
+    
+    <item>
+      <title>CHAT en tiempo real con NodeJS, Express, BlueBirdJS, Socket.IO y mongoDB</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-06-30-app-chat-express-socket.io-mongodb-bluebird/</guid>
+      <description>En este pequeño post te explicaré como crear una aplicación de chat en tiempo real paso a paso.</description>
+    </item>
+    
+    <item>
+      <title>NGrok: Crea URLs públicas para exponer su servidor web local</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-06-10-ngrok/</link>
+      <pubDate>Mon, 10 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-06-10-ngrok/</guid>
+      <description>Ngrok es una herramienta útil que crea una URL de túnel segura y de acceso público a una aplicación que se ejecuta en localhost.</description>
+    </item>
+    
+    <item>
+      <title>Conexión NodeJS con MongoDB Atlas</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-05-13-nodejs-mongodb/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-05-13-nodejs-mongodb/</guid>
+      <description>MongoDB Atlas es la base de datos como servicio que permite implementar, utilizar y escalar una base de datos de MongoDB en la nube haciendo conexión con NodeJS.</description>
+    </item>
+    
+    <item>
+      <title>Configuración de una cuenta en MongoDB Atlas</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-05-06-mongodb-atlas/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-05-06-mongodb-atlas/</guid>
+      <description>MongoDB Atlas ofrece la base de datos líder mundial para aplicaciones modernas como un servicio en la nube totalmente automatizado, diseñado y ejecutado por el mismo equipo que construye la base de datos.</description>
+    </item>
+    
+    <item>
+      <title>Handlebars | Parte 2</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-04-15-handlebars-prt-2/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-04-15-handlebars-prt-2/</guid>
+      <description>Continuando con handlebars, esta vez construiremos plantillas mas avanzadas usando condiciones, bucles, with, variables de datos, helpers y partials.</description>
+    </item>
+    
+    <item>
+      <title>Handlebars | Parte 1</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-04-09-handlebars-prt-1/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-04-09-handlebars-prt-1/</guid>
+      <description>Handlebars.</description>
+    </item>
+    
+    <item>
+      <title>Javascript: Promesas</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-04-03-javascript-promesas/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-04-03-javascript-promesas/</guid>
+      <description>A una promesa, como su propio nombre lo dice, es simplemente un objeto que puede o no devolver algún valor en la línea de tiempo presente y futuro.</description>
+    </item>
+    
+    <item>
+      <title>Conexión NodeJS con SQLServer</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-01-10-nodejs-sqlserver/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-01-10-nodejs-sqlserver/</guid>
+      <description>Microsoft SQL Server es un sistema de gestión de base de datos relacional (RDBMS) producido por Microsoft.</description>
+    </item>
+    
+    <item>
+      <title>Creación de un juego con JavaScript puro</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-12-15-game-rock-paper-scissors/</link>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-12-15-game-rock-paper-scissors/</guid>
+      <description>En esta oportunidad crearemos un juego del clásico piedra, papel o tijeras.</description>
+    </item>
+    
+    <item>
+      <title>Conexión NodeJS con Redis Cache</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-11-01-nodejs-redis/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-11-01-nodejs-redis/</guid>
+      <description>Redis se utiliza como base de datos y para caché, ya que es súper rápido debido a que los datos se almacenan &amp;ldquo;en memoria&amp;rdquo;, a diferencia de otras bases de datos en las que los datos generalmente se almacenan &amp;ldquo;en disco&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Gráficos con D3JS</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-10-02-d3js/</link>
+      <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-10-02-d3js/</guid>
+      <description>D3.js es una biblioteca de JavaScript para manipular documentos basados ​​en datos.</description>
+    </item>
+    
+    <item>
+      <title>Programación Orientada a Objetos</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-09-15-poo/</link>
+      <pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-09-15-poo/</guid>
+      <description>POO es un paradigna de programación que comenzó a desarrollarse en los años 80, en ese momento se dieron cuenta que esta forma de programación facilitaba el desarrollo de sistemas de gran tamaño.</description>
+    </item>
+    
+    <item>
+      <title>APP Restaurante</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-09-01-apprestaurante/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-09-01-apprestaurante/</guid>
+      <description>En esta oportunidad les presento un nuevo sistema de restaurante, cuenta con dos formas de ver, una para los pedidos que se configura dentro del sistema y la otra la parte administrativa.</description>
+    </item>
+    
+    <item>
+      <title>Registro de errores con Log4Net</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-05-20-log4net/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-05-20-log4net/</guid>
+      <description>Si eres un gran desarrollador sabrás que todo software debe de tener un LOG, en esta oportunidad te muestro un aplicativo de como se hace uno.</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework Básico</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-05-06-entityframework-basico/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-05-06-entityframework-basico/</guid>
+      <description>Una forma mas rápida de realizar CRUD&amp;rsquo;s, a tan solo unos clicks.</description>
+    </item>
+    
+    <item>
+      <title>Scripts SQLServer</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-04-29-scripts-sqlserver/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-04-29-scripts-sqlserver/</guid>
+      <description>Les comparto algunos scripts que me sirvieron de mucho durante el tiempo que llevo trabajando, y es más aún los sigo usando.</description>
+    </item>
+    
+    <item>
+      <title>Portafolio Profesional</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-04-15-portafolio-profesional/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-04-15-portafolio-profesional/</guid>
+      <description>¿Alguna véz haz querido hacer un curriculum profesional usando algo diferente?</description>
+    </item>
+    
+    <item>
+      <title>SIGEVEN 2.0</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-03-30-sigeven2.0/</link>
+      <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-03-30-sigeven2.0/</guid>
+      <description>Como dicen, si hay versión 1, una 2 va haber, en esta oportunidad les muestro otro sistema de ventas mas completo en full PHP con jquery y ajax.</description>
+    </item>
+    
+    <item>
+      <title>SIGEVEN 1.0</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-03-04-sigeven1.0/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2018-03-04-sigeven1.0/</guid>
+      <description>En esta oportunidad les presento un sistema de gestión de ventas para un puesto de ventas, podrás registrar ventas diarias, gastos, ingresos, registro de proveedores e incluso realizar reportes.</description>
+    </item>
+    
+  </channel>
+</rss>

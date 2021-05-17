@@ -3,8 +3,10 @@
   <div class="container">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
-      <a class="navbar-brand mobile-view" href="{{ .Site.BaseURL }}"><img class="img-fluid"
-          src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
+      <a class="navbar-brand mobile-view" href="{{ .Site.BaseURL }}" style="font-family: 'Raleway'; font-size: 2em; font-weight: bold; color: black;">
+        DonProgramador();
+        <!-- <img class="img-fluid" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"> -->
+      </a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
         <i class="ti-menu h3"></i>
       </button>
@@ -20,8 +22,10 @@
           </ul>
         </div>
 
-        <a class="navbar-brand mx-auto desktop-view" href="{{ .Site.BaseURL }}"><img class="img-fluid"
-            src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"></a>
+        <a class="navbar-brand mx-auto desktop-view" href="{{ .Site.BaseURL }}" style="font-family: 'Raleway'; font-size: 2em; font-weight: bold; color: black;">
+          DonProgramador();
+          <!-- <img class="img-fluid" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}"> -->
+        </a>
 
         <ul class="navbar-nav">
           {{ range .Site.Menus.main }}

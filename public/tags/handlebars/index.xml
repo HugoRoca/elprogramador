@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Handlebars on El Programador | Blog personal</title>
+    <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/tags/handlebars/</link>
+    <description>Recent content in Handlebars on El Programador | Blog personal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-pe</language>
+    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://donprogramador.net.s3-website.us-east-2.amazonaws.com/tags/handlebars/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Handlebars | Parte 2</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-04-15-handlebars-prt-2/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-04-15-handlebars-prt-2/</guid>
+      <description>Continuando con handlebars, esta vez construiremos plantillas mas avanzadas usando condiciones, bucles, with, variables de datos, helpers y partials.</description>
+    </item>
+    
+    <item>
+      <title>Handlebars | Parte 1</title>
+      <link>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-04-09-handlebars-prt-1/</link>
+      <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://donprogramador.net.s3-website.us-east-2.amazonaws.com/blog/2019-04-09-handlebars-prt-1/</guid>
+      <description>Handlebars.</description>
+    </item>
+    
+  </channel>
+</rss>
